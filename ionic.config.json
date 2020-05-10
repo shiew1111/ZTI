@@ -1,0 +1,7 @@
+{
+  "name": "AllInOne",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
