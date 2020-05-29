@@ -20,7 +20,7 @@ import './Tab5.css';
 
 const Tab5: React.FC = () => {
 
-    const EditableContext = React.createContext<any>();
+    const EditableContext = React.createContext<any | null>(null);
     const [Output_wpisy, setOutput_wpisy] = useState();
     const [Wpis_with_autors, setWpis_with_autors] = useState([]);
     const [Output_autorzy, setOutput_autorzy] = useState();
